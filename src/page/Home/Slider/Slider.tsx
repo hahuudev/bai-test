@@ -54,7 +54,7 @@ const Slider = ({ children }: SilderProps) => {
             </button>
 
             <div className={styles.dots}>
-                {children?.map((child: React.ReactNode, index: number) => (
+                {children?.map((_child: React.ReactNode, index: number) => (
                     <span key={index} className={clsx(positionActive === index && styles.active)} onClick={() => setPositionActive(index)}></span>
                 ))}
             </div>

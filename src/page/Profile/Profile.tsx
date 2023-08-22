@@ -79,7 +79,7 @@ const Profile = () => {
                     <input type="text" placeholder="TITLE" className="ml-6" />
                 </div>
             </div>
-            <div className={styles.table}>{!isFetching && <Table dataSource={dataSource as any} columns={columns} />}</div>
+            <div className={styles.table}>{!isFetching && <Table dataSource={dataSource as any} columns={columns as any} />}</div>
 
             <Modal isOpen={isOpenModalAdd}>
                 <div className={styles.modal}>
