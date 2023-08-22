@@ -1,0 +1,41 @@
+.wraper {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 64px;
+        font-weight: 400;
+    }
+}
+
+.form {
+    label {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 407px;
+        height: 57px;
+        border-radius: 6px;
+        border: 1px solid #333;
+        margin: 20px 0 40px 0;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+}
+
+button.btn {
+    width: 407px;
+    height: 53px;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 1px;
+    background-color: var(--primary-color);
+    font-size: 16px;
+    color: #fff;
+}

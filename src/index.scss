@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html:root {
+    --primary-color: #9c69e2;
+    --title-color: #212353;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.65;
+    font-family: Helvetica, sans-serif;
+
+    button,
+    input {
+        border: none;
+        outline: none;
+    }
+
+    button {
+        background-color: transparent;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+main {
+    margin-top: 160px;
+}
+
+.app-wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+// Modal
+.react-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.mr-4 {
+    margin-right: 16px;
+}
+.ml-4 {
+    margin-left: 16px;
+}
+
+.ml-6 {
+    margin-left: 24px;
+}
+
+.mt-4 {
+    margin-top: 16px;
+}
+.mt-7 {
+    margin-top: 28px;
+}
+.my-6 {
+    margin: 24px 0;
+}
+
+.mx-4 {
+    margin: 0 16px;
+}

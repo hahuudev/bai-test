@@ -1,0 +1,88 @@
+.profile {
+    margin-top: 80px;
+    padding: 0 20px;
+}
+
+.options {
+    button {
+        width: 252px;
+        height: 58px;
+        background-color: var(--primary-color);
+        border-radius: 50px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    input {
+        width: 320px;
+        height: 49px;
+        border-radius: 6px;
+        border: 1px solid #333;
+        padding-left: 14px;
+        font-size: 16px;
+    }
+}
+
+.table {
+    margin-top: 40px;
+}
+
+.modal {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 0 5px 4px #d3d3d3;
+    padding: 30px;
+}
+
+.form {
+}
+
+.modal-form {
+    h3 {
+        font-size: 20px;
+    }
+}
+
+.form-item {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-size: 18px;
+    }
+
+    input,
+    select {
+        width: 400px;
+        height: 42px;
+        font-size: 16px;
+        padding-left: 16px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+
+    textarea {
+        width: 400px;
+        font-size: 16px;
+        padding: 16px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+}
+
+.form-btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+
+    button {
+        width: 80px;
+        height: 30px;
+        font-size: 16px;
+        border-radius: 8px;
+        border: 1px solid #000;
+        margin-left: 16px;
+    }
+}

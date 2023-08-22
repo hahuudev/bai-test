@@ -1,0 +1,54 @@
+.wraper {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 436px;
+    min-height: 100px;
+}
+
+.container {
+    position: relative;
+    border-radius: 20px;
+}
+
+.content {
+    position: absolute;
+    inset: 0;
+    left: 40%;
+}
+
+.content-wraper {
+    height: 100%;
+    padding: 40px 40px 36px 10px;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        color: var(--title-color);
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    p {
+        flex: 1;
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        color: #4B5D68;
+    }
+
+    a {
+        font-size: 18px;
+        text-decoration: none;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}
+
+.avatar {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,62 @@
+.slider {
+    position: relative;
+}
+
+.slider-item {
+    width: 100%;
+    display: none;
+    animation: In-out 0.3s linear;
+}
+
+.active {
+    visibility: visible;
+    display: block;
+    opacity: 1;
+}
+
+@keyframes In-out {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.container {
+    padding: 0 50px;
+    overflow: hidden;
+}
+.btnPrev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btnNext {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dots {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    span {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: aliceblue;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    span.active {
+        background-color: #df129b;
+    }
+}
